@@ -1,6 +1,5 @@
 /**
  * Java Core. Homework #1
- * <p>
  * author Svetlana Cherkovskaya
  */
 

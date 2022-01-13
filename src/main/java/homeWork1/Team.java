@@ -1,6 +1,5 @@
 /**
  * Java Core. Homework #1
- * <p>
  * author Svetlana Cherkovskaya
  */
 
@@ -33,11 +32,11 @@ public class Team {
 
     }
 
-    public void showWinners(Team team) {
+    public void showWinners() {
         System.out.println("Winners: ");
-        for (int i = 0; i < team.getArrayParticipant().length; i++) {
-            if (team.getArrayParticipant()[i].isWinner() == true) {
-                System.out.println(team.arrayParticipant[i]);
+        for (int i = 0; i < getArrayParticipant().length; i++) {
+            if (getArrayParticipant()[i].isWinner() == true) {
+                System.out.println(arrayParticipant[i]);
             }
         }
     }

@@ -1,6 +1,5 @@
 /**
  * Java Core. Homework #1
- * <p>
  * author Svetlana Cherkovskaya
  */
 
@@ -24,6 +23,6 @@ public class Main {
 
         System.out.println(team1); // выводим данные
 
-        team1.showWinners(team1); // выводим список победителей
+        team1.showWinners(); // выводим список победителей
     }
 }
