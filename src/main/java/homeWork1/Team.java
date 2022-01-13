@@ -32,4 +32,14 @@ public class Team {
         return nameTeam + ". " + a;
 
     }
+
+    public void showWinners(Team team) {
+        System.out.println("Winners: ");
+        for (int i = 0; i < team.getArrayParticipant().length; i++) {
+            if (team.getArrayParticipant()[i].isWinner() == true) {
+                System.out.println(team.arrayParticipant[i]);
+            }
+        }
+    }
 }
+

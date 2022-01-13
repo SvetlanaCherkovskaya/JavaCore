@@ -14,14 +14,16 @@ public class Main {
         Participant participant3 = new Participant("Anna", 35);
         Participant participant4 = new Participant("Lena", 37);
 
-        Team team1 = new Team("The Best", new Participant[]{participant1, participant2, participant3, participant4});
+        Team team1 = new Team("SuperTeam", new Participant[]{participant1, participant2, participant3, participant4});
 
-        System.out.println(team1);
+        System.out.println(team1); //выводим данные
 
         Course course1 = new Course(new int[]{30, 35, 36});
 
-        course1.doIt(team1);
+        course1.doIt(team1); // проходим препятствия
 
-        System.out.println(team1);
+        System.out.println(team1); // выводим данные
+
+        team1.showWinners(team1); // выводим список победителей
     }
 }
